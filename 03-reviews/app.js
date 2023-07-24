@@ -78,7 +78,7 @@ prevBtn.addEventListener("click", () => {
   showPerson();
 });
 
-//show random review and I think I did it by myself
+//show random person
 
 randomBtn.addEventListener("click", () => {
   currentItem = Math.floor(Math.random() * reviews.length);
